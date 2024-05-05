@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderColor:{
+        "primary": "rgb(85, 81, 227)"
+      }
+    },
     fontFamily: {
       "hero-font": "Sriracha",
     },

@@ -7,7 +7,7 @@ import {
 
 function Hero() {
   return (
-    <section className="flex flex-col  md:flex-row px-5 py-32 bg-secondary justify-center">
+    <section className="flex flex-col  md:flex-row px-5 py-32 bg-primary justify-center">
       <div className="md:w-1/2 flex flex-col">
         <h1 className=" text-white text-4xl font-hero-font ">
           Hi,
@@ -19,10 +19,10 @@ function Hero() {
             <AiOutlineTwitter size={40} />
           </a>
           <a className="hover:text-white" href="#">
-            <AiOutlineFacebook size={40}/>
+            <AiOutlineFacebook size={40} />
           </a>
           <a className="hover:text-white" href="#">
-            <AiOutlineLinkedin size={40}/>
+            <AiOutlineLinkedin size={40} />
           </a>
         </div>
       </div>
