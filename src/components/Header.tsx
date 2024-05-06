@@ -5,11 +5,11 @@ function Header() {
   const [toggleMenu, setToggleMenu] = useState<Boolean>(false);
   return (
     <header className="flex justify-between px-5 py-2 bg-primary">
-      <a className="font-bold text-black" href="#">
+      <a className="font-bold text-black text-xl" href="#">
         Jathurshan
       </a>
       <nav className="hidden md:block">
-        <ul className="flex text-white">
+        <ul className="flex text-white text-xl">
           <li className="px-3">
             <a href="#">Home</a>
           </li>
@@ -18,6 +18,9 @@ function Header() {
           </li>
           <li className="px-3">
             <a href="#">Projects</a>
+          </li>
+          <li className="px-3">
+            <a href="#">Resume</a>
           </li>
           <li className="px-3">
             <a href="#">Contact</a>
