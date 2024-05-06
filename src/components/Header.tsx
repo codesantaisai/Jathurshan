@@ -11,36 +11,36 @@ function Header() {
       <nav className="hidden md:block">
         <ul className="flex text-white text-xl">
           <li className="px-3">
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className="px-3">
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="px-3">
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="px-3">
-            <a href="#">Resume</a>
+            <a href="#resume">Resume</a>
           </li>
           <li className="px-3">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
       {toggleMenu && (
         <nav className="block md:hidden">
-          <ul className="flex flex-col text-white mobile-nav">
+          <ul onClick={()=>setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav">
             <li className="px-3">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="px-3">
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="px-3">
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li className="px-3">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
